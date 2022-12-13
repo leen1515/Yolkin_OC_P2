@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+@media (min-width: 992px) {
+
+
+
+    body {
+        max-width: 1400px;
+        width: 100%;
+        margin: auto;
+        font-family: 'Raleway';
+        color:black;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .headerBooki {}
+
+    .headerBooki-top {}
+
+    .headerBooki-top-logo {}
+
+    .headerBooki-top-navBooki {}
+
+    .headerBooki-titre {}
+
+    .headerBooki-recherche {}
+
+    .headerBooki-recherche-icone {}
+
+    .headerBooki-recherche-input {}
+
+    .headerBooki-recherche-submit {}
+
+    .texteSearch-display {}
+
+    .iconeSearch-display {}
+
+    .headerBooki-filtre {}
+
+    .heaBooki-filtre-titre {}
+
+    .headerBooki-filtre-button {}
+
+    .icone {}
+
+    .icone_position {}
+
+    .filtre-info {}
+
+
+    .headerBooki-info {}
+
+    .icone-info {}
+
+h1{
+    font-size:22px;
+
+}
+
+
+
+h2{
+    font-style:normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+
+
+}
+
+h3{
+    font-style:normal;
+    font-weight: 700;
+    font-size:16px;
+    line-height:19px;
+    margin:5px 0px;
+}
+
+
+h4 {
+    font-style:normal;
+    font-weight: 700;
+    font-size:18px;
+    line-height:21px;
+
+}
+
+
+p{
+
+    margin:5px 0px;
+
+
+}
+
+
+
+    .mainBooki {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap:40px;
+    }
+
+
+
+    .sectionBooki-hebergements {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex: 3;
+        background-color: #F2F2F2;
+        border-radius: 20px 20px 20px 20px;
+        padding:40px 40px 40px 40px;
+    }
+
+    .sectionBooki-hebergements>.sectionBooki-titre {
+        flex: 1;
+
+    }
+
+    .sectionBooki-populaires {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1.5;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        margin: auto 20px;
+        padding: 50px 0px;
+
+    }
+
+    .sectionBooki-activites {
+       flex:100%;
+    }
+
+    .sectionBooki-populaires>.sectionBooki-titre {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        white-space: nowrap;
+        flex: 1;
+        width:100%;
+        padding:0px 50px 40px;
+        box-sizing: border-box;
+
+    }
+
+    .iParent_position {
+        margin: auto 0px;
+    }
+
+
+    .sectionBooki-elements-hebergements {
+        flex: 6;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 31px;
+        
+
+    }
+    .sectionBooki-elements-hebergements>h4{
+        width:100%;
+     
+
+
+    }
+    .elements-hebergements-carte {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: white;
+        width: 254px;
+        height: 199px;
+        border-radius: 20px 20px 20px 20px;
+        
+        
+       
+    }
+
+    .elements-hebergements-carte-image {
+        width: 246px;
+        height: 124px;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 20px 20px 0 0;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+
+    .elements-hebergements-carte-description {
+        margin: 0px 20px 15px 15px;
+        width: auto;
+        height:60px;
+    
+        
+    }
+
+    .elements-carte-titre {}
+
+    .elements-carte-description-etoile {}
+
+    .icone_bleu {}
+
+    .icone_gris {}
+
+    .sectionBooki-elements-populaires {
+
+        justify-content: center;
+        flex: 1;
+        padding:0px 40px;
+
+
+    }
+
+    .elements-populaires-carte {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        flex:1;
+        background-color: white;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 20px;
+        margin: 30px auto;
+    }
+
+    .elements-populaires-carte-image {
+        width: 137px;
+        height: 144px;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 20px 0 0 20px;
+        overflow: hidden;
+
+    }
+
+    .elements-populaires-carte-description {
+        flex: 1;
+        flex-wrap: wrap;
+        margin: auto 15px;
+    }
+
+    .sectionBooki-elements-activites {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+
+    .elements-activites-carte {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+
+    }
+
+   
+    .elements-activites-carte-image {
+        width: 302px;
+        height: 445px;
+        border: 0px solid rgb(255, 255, 255);
+        border-radius: 10% 10% 0 0;
+        overflow: hidden;
+    }
+
+    .elements-activites-carte-description {
+        margin: 0px 19px;
+        width: auto;
+        
+    }
+
+
+    .hebergementsImageTaille {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+
+    }
+
+    .populairesImageTaille {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .activitesImageTaille {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+
+    }
+
+
+
+
+
+    .footerBooki {
+        display:flex;
+        justify-content: space-around;
+        width:100%;
+        background-color: #F2F2F2;
+        padding:20px 50px;
+        box-sizing: border-box;
+    }
+
+li{
+    list-style-type: none;
+    
+    }
+
+
+    .footerBooki-elements {
+        flex:1;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+
+    .footerBooki-elements-titre {
+        flex:1;
+        padding:0px 42px;
+
+    }
+
+
+
+
+
+
+
+
+}

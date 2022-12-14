@@ -24,8 +24,8 @@
             </div>
             <nav class="headerBooki-top-navBooki">
                 <ul>
-                    <li>Hébergements</li>
-                    <li>Activités</li>
+                    <li><a href="#hebergements">Hébergements</a></li>
+                    <li><a href="#activites">Activités</a></li>
                 </ul>
             </nav>
         </div>
@@ -38,10 +38,11 @@
     </header>
 
 
-  
-    <form action="" class="headerBooki-recherche"><button class="headerBooki-recherche-icone"></button><input
-            type="text" class="headerBooki-recherche-input">
-        <button class="headerBooki-recherche-submit">
+
+    <form action="" class="headerBooki-recherche">
+        <label for="recherche" class="headerBooki-recherche-localisation"><i class="fa-solid fa-location-dot fa-lg icone_position">
+            </i></label><input id="recherche" name="recherche" type="search" class="headerBooki-recherche-input" placeholder="Marseille, France">
+        <button type="button" class="headerBooki-recherche-submit">
             <span class="texteSearch-display">
                 Recherche
             </span>
@@ -55,27 +56,27 @@
         <div class="heaBooki-filtre-titre">
             <h2>Filtres</h2>
         </div>
-        <div class="headerBooki-filtre-button">
-            <div class="icone"><i class="fa fa-solid fa-money-bill-wave icone_position">
+        <button class="headerBooki-filtre-button" type="button" onclick="">
+            <div class="icone"><i class="fa fa-solid fa-money-bill-wave fa-lg">
                 </i></div>
             <div class="filtre-info">Economique</div>
-        </div>
-        <div class="headerBooki-filtre-button">
-            <div class="icone"><i class="fa fa-solid fa-person icone_position">
+            </button>
+        <button class="headerBooki-filtre-button" type="button" onclick="">
+            <div class="icone"><i class="fa fa-solid fa-person fa-lg">
                 </i></div>
             <div class="filtre-info">Familial</div>
-        </div>
-        <div class="headerBooki-filtre-button">
+        </button>
+        <button class="headerBooki-filtre-button" type="button" onclick="">
 
-            <div class="icone"><i class="fa fa-solid fa-heart icone_position">
+            <div class="icone"><i class="fa fa-solid fa-heart fa-lg">
                 </i></div>
             <div class="filtre-info">Romantique</div>
-        </div>
-        <div class="headerBooki-filtre-button">
-            <div class="icone"><i class="fa fa-solid fa-dog icone_position">
+        </button>
+        <button class="headerBooki-filtre-button" type="button" onclick="">
+            <div class="icone"><i class="fa fa-solid fa-dog fa-lg">
                 </i></div>
             <div class="filtre-info">Animaux autorisés</div>
-        </div>
+        </button>
     </div>
 
 
@@ -85,15 +86,17 @@
         <p>Plus de 500 logements sont disponibles dans cette ville</p>
     </div>
     <main class="mainBooki">
-        <section class="sectionBooki-hebergements">
+        <section class="sectionBooki-hebergements" id="hebergements">
             <div class="sectionBooki-titre">
                 <h2>Hébergements à Marseille</h2>
             </div>
 
             <div class="sectionBooki-elements-hebergements">
-                <article class="elements-hebergements-carte">
+                <a href="#"><article class="elements-hebergements-carte">
                     <div class="elements-hebergements-carte-image"> <img class="hebergementsImageTaille"
-                            src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                            src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" srcset="./images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg 1280w, 
+                                    ./images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg 1920w,
+                                    ./images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg 2560w"
                             alt="photo hébergement"></div>
                     <div class="elements-hebergements-carte-description">
                         <div class="elements-carte-titre">
@@ -102,23 +105,25 @@
                             <p>Nuit à partir de 25€</p>
                         </div>
                         <div class="elements-carte-description-etoile">
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_gris">
+                            <i class="fa-solid fa-star fa-xs icone_gris">
                             </i>
                         </div>
                     </div>
-                </article>
+                </article></a>
 
-                <article class="elements-hebergements-carte">
+                <a href="#"><article class="elements-hebergements-carte">
                     <div class="elements-hebergements-carte-image"> <img class="hebergementsImageTaille"
-                            src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                            src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" srcset="./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg 1280w, 
+                                    ./images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg 1920w,
+                                    ./images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg 2560w"
                             alt="photo hébergement"></div>
                     <div class="elements-hebergements-carte-description">
                         <div class="elements-carte-titre">
@@ -127,23 +132,25 @@
                             <p>Nuit à partir de 52€</p>
                         </div>
                         <div class="elements-carte-description-etoile">
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_gris">
+                            <i class="fa-solid fa-star fa-xs icone_gris">
                             </i>
                         </div>
                     </div>
-                </article>
+                </article></a>
 
-                <article class="elements-hebergements-carte">
+                <a href="#"><article class="elements-hebergements-carte">
                     <div class="elements-hebergements-carte-image"> <img class="hebergementsImageTaille"
-                            src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                            src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" srcset="./images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg 1280w, 
+                                    ./images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg 1920w,
+                                    ./images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg 2560w"
                             alt="photo hébergement"></div>
                     <div class="elements-hebergements-carte-description">
                         <div class="elements-carte-titre">
@@ -152,23 +159,25 @@
                             <p>Nuit à partir de 76€</p>
                         </div>
                         <div class="elements-carte-description-etoile">
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_gris">
+                            <i class="fa-solid fa-star fa-xs icone_gris">
                             </i>
                         </div>
                     </div>
-                </article>
+                </article></a>
 
-                <article class="elements-hebergements-carte">
+                <a href="#"><article class="elements-hebergements-carte">
                     <div class="elements-hebergements-carte-image"> <img class="hebergementsImageTaille"
-                            src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                            src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" srcset="./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg 1280w, 
+                            ./images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg 1920w,
+                            ./images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg 2560w"
                             alt="photo hébergement"></div>
                     <div class="elements-hebergements-carte-description">
                         <div class="elements-carte-titre">
@@ -177,23 +186,25 @@
                             <p>Nuit à partir de 46€</p>
                         </div>
                         <div class="elements-carte-description-etoile">
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_gris">
+                            <i class="fa-solid fa-star fa-xs icone_gris">
                             </i>
                         </div>
                     </div>
-                </article>
+                </article></a>
 
-                <article class="elements-hebergements-carte">
+                <a href="#"><article class="elements-hebergements-carte">
                     <div class="elements-hebergements-carte-image"> <img class="hebergementsImageTaille"
-                            src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                            src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" srcset="./images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 1280w, 
+                            ./images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 1920w,
+                            ./images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg 2560w"
                             alt="photo hébergement"></div>
                     <div class="elements-hebergements-carte-description">
                         <div class="elements-carte-titre">
@@ -202,23 +213,25 @@
                             <p>Nuit à partir de 23€</p>
                         </div>
                         <div class="elements-carte-description-etoile">
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_gris">
+                            <i class="fa-solid fa-star fa-xs icone_gris">
                             </i>
                         </div>
                     </div>
-                </article>
+                </article></a>
 
-                <article class="elements-hebergements-carte">
+                <a href="#"><article class="elements-hebergements-carte">
                     <div class="elements-hebergements-carte-image"> <img class="hebergementsImageTaille"
-                            src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                            src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" srcset="./images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 1280w, 
+                            ./images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 1920w,
+                            ./images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 2560w"
                             alt="photo hébergement"></div>
                     <div class="elements-hebergements-carte-description">
                         <div class="elements-carte-titre">
@@ -227,20 +240,20 @@
                             <p>Nuit à partir de 96€</p>
                         </div>
                         <div class="elements-carte-description-etoile">
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_bleu">
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
                             </i>
-                            <i class="fa-solid fa-star icone_gris">
+                            <i class="fa-solid fa-star fa-xs icone_gris">
                             </i>
                         </div>
                     </div>
-                </article>
-                <h4>Afficher plus</h4>
+                </article></a>
+                <a class="afficherPlus" href="#"><h4>Afficher plus</h4></a>
             </div>
 
 
@@ -250,71 +263,101 @@
             <div class="sectionBooki-titre">
                 <h2>Les plus populaires
                 </h2>
-                <div class="iParent_position"><i class="fa-solid fa-chart-line icone_bleu">
+                <div class="iconePopulaireParent_position"><i class="fa-solid fa-chart-line icone_bleu icone_position">
                     </i></div>
             </div>
 
             <div class="sectionBooki-elements-populaires">
-                <article class="elements-populaires-carte">
+                <a href="#"><article class="elements-populaires-carte">
                     <div class="elements-populaires-carte-image">
                         <img class="populairesImageTaille"
                             src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                             alt="photo hébergement">
                     </div>
                     <div class="elements-populaires-carte-description">
-                        <div class="elements-carte-titre">
+                        <div class="elements-populaires-carte-titre">
                             <h3>Hôtel Le soleil du matin
                             </h3>
                             <p>Nuit à partir de 128€</p>
                         </div>
-                        <div class="elements-carte-description-etoile"></div>
+                        <div class="elements-populaires-carte-description-etoile"><i class="fa-solid fa-star fa-xs icone_bleu">
+                            </i>
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
+                            </i>
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
+                            </i>
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
+                            </i>
+                            <i class="fa-solid fa-star fa-xs icone_gris">
+                            </i>
+                        </div>
                     </div>
-                </article>
+                </article></a>
 
-                <article class="elements-populaires-carte">
+                <a href="#"><article class="elements-populaires-carte">
                     <div class="elements-populaires-carte-image">
                         <img class="populairesImageTaille"
                             src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
                             alt="photo hébergement">
                     </div>
                     <div class="elements-populaires-carte-description">
-                        <div class="elements-carte-titre">
+                        <div class="elements-populaires-carte-titre">
                             <h3>Chambres d’hôtes Au cœur de l’eau
                             </h3>
                             <p>Nuit à partir de 71€</p>
                         </div>
-                        <div class="elements-carte-description-etoile"></div>
+                        <div class="elements-populaires-carte-description-etoile"><i class="fa-solid fa-star fa-xs icone_bleu">
+                            </i>
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
+                            </i>
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
+                            </i>
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
+                            </i>
+                            <i class="fa-solid fa-star fa-xs icone_gris">
+                            </i>
+                        </div>
                     </div>
-                </article>
+                </article></a>
 
 
-                <article class="elements-populaires-carte">
+                <a href="#"><article class="elements-populaires-carte">
                     <div class="elements-populaires-carte-image">
                         <img class="populairesImageTaille"
                             src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                             alt="photo hébergement">
                     </div>
                     <div class="elements-populaires-carte-description">
-                        <div class="elements-carte-titre">
+                        <div class="elements-populaires-carte-titre">
                             <h3>Hôtel Bleu et Blanc
                             </h3>
                             <p>Nuit à partir de 68€</p>
                         </div>
-                        <div class="elements-carte-description-etoile"></div>
+                        <div class="elements-populaires-carte-description-etoile"><i class="fa-solid fa-star fa-xs icone_bleu">
+                            </i>
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
+                            </i>
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
+                            </i>
+                            <i class="fa-solid fa-star fa-xs icone_bleu">
+                            </i>
+                            <i class="fa-solid fa-star fa-xs icone_gris">
+                            </i>
+                        </div>
                     </div>
-                </article>
+                </article></a>
 
 
             </div>
 
         </section>
-        <section class="sectionBooki-activites">
+        <section class="sectionBooki-activites" id="activites">
             <div class="sectionBooki-titre">
                 <h2>Activités à Marseille</h2>
             </div>
 
             <div class="sectionBooki-elements-activites">
-                <article class="elements-activites-carte">
+                <a href="#"><article class="elements-activites-carte">
                     <div class="elements-activites-carte-image"><img class="activitesImageTaille"
                             src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                             alt="photo activités"></div>
@@ -323,12 +366,12 @@
                             <h3>Vieux-Port
                             </h3>
                         </div>
-                        <div class="elements-carte-description-etoile"></div>
+                       
                     </div>
 
-                </article>
+                </article></a>
 
-                <article class="elements-activites-carte">
+                <a href="#"><article class="elements-activites-carte">
                     <div class="elements-activites-carte-image"><img class="activitesImageTaille"
                             src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
                             alt="photo activités"></div>
@@ -337,13 +380,12 @@
                             <h3>Fort de Pomègues
                             </h3>
                         </div>
-                        <div class="elements-carte-description-etoile"></div>
-                    </div>
+                        
 
-                </article>
+                </article></a>
 
 
-                <article class="elements-activites-carte">
+                <a href="#"><article class="elements-activites-carte">
                     <div class="elements-activites-carte-image"><img class="activitesImageTaille"
                             src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                             alt="photo activités"></div>
@@ -352,12 +394,12 @@
                             <h3>Parc national des Calanques
                             </h3>
                         </div>
-                        <div class="elements-carte-description-etoile"></div>
+                       
                     </div>
 
-                </article>
+                </article></a>
 
-                <article class="elements-activites-carte">
+                <a href="#"><article class="elements-activites-carte">
                     <div class="elements-activites-carte-image">
                         <img class="activitesImageTaille"
                             src="./images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
@@ -368,12 +410,10 @@
                             <h3>Notre-Dame-de-la-Garde
                             </h3>
                         </div>
-                        <div class="elements-carte-description-etoile">
-
-                        </div>
+                       
                     </div>
 
-                </article>
+                </article></a>
 
             </div>
         </section>
